@@ -45,7 +45,7 @@ def get_solar_data(dias_historial=365):
 
     all_data = []
     
-    # La API limita a 30 dias por request, asi que hacemos paginacion
+    
     current_start = fecha_inicio
     
     try:
